@@ -1,5 +1,3 @@
-/* eslint-disable object-curly-newline */
-/* eslint-disable max-len */
 import api from '../../utils/api';
 
 const ActionType = {
@@ -58,4 +56,11 @@ function asyncToogleLikeTalkDetail() {
   };
 }
 
-export { ActionType, receiveTalkDetailActionCreator, clearTalkDetailActionCreator, toggleLikeTalkDetailActionCreator, asyncReceiveTalkDetail, asyncToogleLikeTalkDetail };
+export {
+  ActionType,
+  receiveTalkDetailActionCreator,
+  clearTalkDetailActionCreator,
+  toggleLikeTalkDetailActionCreator,
+  asyncReceiveTalkDetail,
+  asyncToogleLikeTalkDetail,
+};

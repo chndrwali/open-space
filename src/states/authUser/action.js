@@ -1,5 +1,3 @@
-/* eslint-disable object-curly-newline */
-/* eslint-disable max-len */
 import api from '../../utils/api';
 
 const ActionType = {
@@ -42,4 +40,10 @@ function asyncUnsetAuthUser() {
   };
 }
 
-export { ActionType, setAuthUserActionCreator, unsetAuthUserActionCreator, asyncSetAuthUser, asyncUnsetAuthUser };
+export {
+  ActionType,
+  setAuthUserActionCreator,
+  unsetAuthUserActionCreator,
+  asyncSetAuthUser,
+  asyncUnsetAuthUser,
+};

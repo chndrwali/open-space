@@ -30,4 +30,8 @@ function asyncPreloadProcess() {
   };
 }
 
-export { ActionType, setIsPreloadActionCreator, asyncPreloadProcess };
+export {
+  ActionType,
+  setIsPreloadActionCreator,
+  asyncPreloadProcess,
+};

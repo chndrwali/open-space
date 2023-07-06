@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 import { ActionType } from './action';
 
 function talkDetailReducer(talkDetail = null, action = {}) {
@@ -10,7 +9,9 @@ function talkDetailReducer(talkDetail = null, action = {}) {
     case ActionType.TOGGLE_LIKE_TALK_DETAIL:
       return {
         ...talkDetail,
-        likes: talkDetail.likes.includes(action.payload.userId) ? talkDetail.likes.filter((id) => id !== action.payload.userId) : talkDetail.likes.concat(action.payload.userId),
+        likes: talkDetail.likes.includes(action.payload.userId)
+          ? talkDetail.likes.filter((id) => id !== action.payload.userId)
+          : talkDetail.likes.concat(action.payload.userId),
       };
     default:
       return talkDetail;

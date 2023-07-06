@@ -61,4 +61,11 @@ function asyncToogleLikeTalk(talkId) {
   };
 }
 
-export { ActionType, receiveTalksActionCreator, addTalkActionCreator, toggleLikeTalkActionCreator, asyncAddTalk, asyncToogleLikeTalk };
+export {
+  ActionType,
+  receiveTalksActionCreator,
+  addTalkActionCreator,
+  toggleLikeTalkActionCreator,
+  asyncAddTalk,
+  asyncToogleLikeTalk,
+};
